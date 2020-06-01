@@ -1,0 +1,42 @@
+body{
+    background-color: cyan;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    filter: drop-shadow(5px 5px 5px gray);
+    
+}
+.outer{
+    position: absolute;
+    width: 40%;
+    top: 40%;
+    left: 30%;
+}
+#res{
+    background-color: lightgray;
+    border: solid;
+    font-size: 20px;
+    height: 24px;
+    padding: 24px;
+}
+#btn0,#btn1{
+    background-color: lightgreen;
+    color: brown;
+}
+#btnClr,#btnEql{
+    background-color: darkgreen;
+    color: white;
+}
+#btnSum,#btnSub,#btnMul,#btnDiv{
+    background-color: black;
+    color: red;
+}
+.btnsss{
+    width: 25%;
+    height: 36px;
+    font-size: 25px;
+    margin: 0px;
+    float: left;
+    
+}
